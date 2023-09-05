@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;1,100&display=swap');
+
+@font-face {
+  font-family: 'caxo';
+  src: url('../fonte/Caxo.otf') format('opentype');
+  font-weight: normal; 
+}
+
+
+body{
+background-image: linear-gradient(to right, #3f78fc8f, #44cbe69c);
+}
+
+main {
+  background-color: #c3e9db59;
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px #2a425e7e;
+  width: 860px;
+  padding: 50px;
+  margin:auto; 
+}
+
+h1{
+  color: #05528d;
+  text-align: center;
+  font-size: 32px;
+  font-style:italic;
+  font-family: 'caxo',sans-serif;
+}
+
+main h2 {
+  color: #3b94d8;
+  text-align: center;
+  font-size: 29px;
+  font-style:italic;
+  font-family: 'caxo',sans-serif;
+}
+
+p{
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22px;
+  color: #2e4f9e
+}
+
+h3 {
+  color: #3b94d8;
+  text-align: center;
+  font-size: 23px;
+  font-style:italic;
+  font-family: 'caxo',sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 21px; 
+  color: #12327e;
+}
+
+a:hover{
+  font-size: 23px;
+  color: #255ad4
+}
+
+
+/* Cores usadas;
+#3D74F2
+#3FABFC
+#44CBE6
+#3FFCE9
+#3DF2AC*/
+
